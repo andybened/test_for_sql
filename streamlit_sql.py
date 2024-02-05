@@ -15,7 +15,7 @@ import streamlit as st
 # username    = 'sa'
 # password    = '96328521'
 # driver      = '{ODBC Driver 18 for SQL Server}'
-conn = pyodbc.connect("DRIVER={ODBC Driver 17 for SQL Server};SERVER="
+conn = pyodbc.connect("DRIVER={SQL Server};SERVER="
         + st.secrets["server"]
         + ";DATABASE="
         + st.secrets["database"]
